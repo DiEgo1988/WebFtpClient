@@ -1,0 +1,85 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	height: 100%;
+}
+
+.header {
+	background: linear-gradient(to bottom, #1e5799 0%,#2989d8 3%,#2989d8 3%,#207cca 39%,#1e5799 99%,#1e5799 99%,#7db9e8 100%);;
+	height: 26px;
+	padding-top: 4px;
+	padding-left: 20px;
+}
+
+input {
+	border: 0;
+	border-radius: 3px;
+	margin-left: 10px;
+}
+
+.menu {
+	background: #444;
+	height: 40px;
+	position: relative;
+}
+
+.left_menu {
+	background: #500;
+	height: 40px;
+	position:absolute;
+ 	top:0;
+ 	left:10px;
+ 	width:47%;
+}
+
+.right_menu {
+	background: #050;
+	height: 40px;
+	position:absolute;
+ 	top:0;
+ 	right:10px;
+ 	width:47%;
+}
+
+.content {
+	background: grey;
+	height: 84%;
+	position:relative;
+}
+
+.left {
+	background: #700;
+	position:absolute;
+ 	top:0px;
+ 	left:10px;
+ 	height: 100%;
+ 	width:47%;
+}
+
+.middle_menu {
+
+}
+
+.right {
+	background: #007;
+	position:absolute;
+ 	top:0px;
+ 	right:10px;
+ 	height: 100%;
+ 	width:47%;
+}
+
+.footer {
+	background: linear-gradient(to bottom, #1e5799 0%,#2989d8 3%,#2989d8 3%,#207cca 39%,#1e5799 99%,#1e5799 99%,#7db9e8 100%);;
+	height: 26px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 10px;
+}
+
+progress {
+  background-color: #f3f3f3;
+}
